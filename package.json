@@ -1,0 +1,37 @@
+{
+  "name": "module-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first feature map for AI-assisted programming",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "vite build",
+    "start": "tsx packages/cli/index.ts serve",
+    "scan": "tsx packages/cli/index.ts scan",
+    "mcp": "tsx packages/cli/index.ts mcp",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build",
+    "format": "prettier --write apps packages tests docs README.md CONTRIBUTING.md vite.config.ts tsconfig.json package.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "ignore": "^7.0.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "~5.9.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.0",
+    "vite": "^6.4.1"
+  },
+  "license": "MIT"
+}

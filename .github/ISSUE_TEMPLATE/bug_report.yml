@@ -1,0 +1,53 @@
+name: Bug report
+description: Something is broken or behaves differently than documented.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: run `npm run check` and make sure you are on the latest `main`.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the exact error text if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. npm start -- --project ...
+        2. click ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Module Map version / commit
+      placeholder: v0.1.0 or commit SHA
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: OS and Node version
+      placeholder: Windows 11, Node 24.21.0
+    validations:
+      required: true
+  - type: textarea
+    id: project
+    attributes:
+      label: Target project shape (optional)
+      description: Rough size, language mix, monorepo or not. Do not paste proprietary source.
+    validations:
+      required: false

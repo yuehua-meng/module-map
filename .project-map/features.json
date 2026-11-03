@@ -1,0 +1,78 @@
+[
+  {
+    "id": "f-b842d90addf9b86e",
+    "name": "本地项目服务",
+    "description": "提供本地接口、项目切换、页面托管和自动同步。",
+    "files": [
+      "apps/local-server/index.ts"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-3b4e3efd29cd131b",
+    "name": "功能地图与交互",
+    "description": "展示功能关系、源码证据、映射编辑和修改任务。",
+    "files": [
+      "apps/web/src/GraphView.tsx",
+      "apps/web/src/main.tsx"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-617a0f945d183ba0",
+    "name": "源码依赖分析",
+    "description": "扫描 JS/TS，解析模块引用并生成可追溯的依赖证据。",
+    "files": [
+      "packages/analyzer/index.ts"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-60cb0a5922ffbb6b",
+    "name": "启动与命令行",
+    "description": "统一启动地图服务、只读扫描和 MCP 服务。",
+    "files": [
+      "packages/cli/index.ts"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-e27f3faa9152db4a",
+    "name": "地图与任务管理",
+    "description": "聚合功能图、管理版本与元数据，校验修改任务。",
+    "files": [
+      "packages/core/graph.ts",
+      "packages/core/store.ts",
+      "packages/core/types.ts"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-3212d4df7420869b",
+    "name": "AI 编程接入",
+    "description": "通过 MCP 向 AI 提供地图查询、源码读取和任务接口。",
+    "files": [
+      "packages/mcp/index.ts"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-59830ebc3a418411",
+    "name": "自动化验证",
+    "description": "验证依赖分析、任务状态以及 HTTP 和 MCP 通信。",
+    "files": [
+      "tests/core.test.ts",
+      "tests/integration.test.ts"
+    ],
+    "source": "ai"
+  },
+  {
+    "id": "f-42ee2863b6d776ff",
+    "name": "构建配置",
+    "description": "配置前端构建与资源输出。",
+    "files": [
+      "vite.config.ts"
+    ],
+    "source": "ai"
+  }
+]
