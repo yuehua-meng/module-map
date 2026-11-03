@@ -4,6 +4,20 @@
   "private": true,
   "type": "module",
   "description": "A local-first feature map for AI-assisted programming",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuehua-meng/module-map.git"
+  },
+  "homepage": "https://github.com/yuehua-meng/module-map#readme",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-coding",
+    "code-visualization",
+    "dependency-graph",
+    "codebase-analysis",
+    "local-first"
+  ],
   "engines": {
     "node": ">=22"
   },
