@@ -14,7 +14,7 @@
     "mcp": "tsx packages/cli/index.ts mcp",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
-    "check": "npm run typecheck && npm test && npm run build",
+    "check": "npm run build && npm run typecheck && npm test",
     "format": "prettier --write apps packages tests docs README.md CONTRIBUTING.md vite.config.ts tsconfig.json package.json"
   },
   "dependencies": {
