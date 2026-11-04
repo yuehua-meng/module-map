@@ -1,8 +1,23 @@
 {
-  "name": "module-map",
+  "name": "@yuehua-meng/module-map",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "type": "module",
+  "bin": {
+    "module-map": "./bin/module-map.mjs"
+  },
+  "files": [
+    "bin",
+    "packages",
+    "apps",
+    "dist/web",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A local-first feature map for AI-assisted programming",
   "repository": {
     "type": "git",
@@ -29,7 +44,8 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "check": "npm run build && npm run typecheck && npm test",
-    "format": "prettier --write apps packages tests docs README.md CONTRIBUTING.md vite.config.ts tsconfig.json package.json"
+    "format": "prettier --write apps packages tests docs README.md CONTRIBUTING.md vite.config.ts tsconfig.json package.json",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
@@ -37,6 +53,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "typescript": "~5.9.3",
+    "tsx": "^4.20.0",
     "zod": "^3.25.76"
   },
   "devDependencies": {
@@ -44,7 +61,6 @@
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
     "prettier": "^3.9.10",
-    "tsx": "^4.20.0",
     "vite": "^6.4.1"
   },
   "license": "MIT"

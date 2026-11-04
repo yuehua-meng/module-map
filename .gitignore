@@ -4,3 +4,4 @@ dist/
 .project-map/*.lock
 *.log
 coverage/
+*.tgz

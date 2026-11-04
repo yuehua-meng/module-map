@@ -13,7 +13,7 @@ A local-first project map for AI-assisted programming. Scan a JS/TS codebase int
 [![Node](https://img.shields.io/badge/node-%E2%89%A522-3c873a?style=flat-square)](https://nodejs.org)
 [![MCP](https://img.shields.io/badge/MCP-stdio-1d232e?style=flat-square)](https://modelcontextprotocol.io)
 
-![Module Map](docs/assets/screenshot-main.png)
+![Module Map demo](docs/assets/demo.gif)
 
 ## The problem
 

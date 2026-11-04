@@ -12,7 +12,7 @@
 [![Node](https://img.shields.io/badge/node-%E2%89%A522-3c873a?style=flat-square)](https://nodejs.org)
 [![MCP](https://img.shields.io/badge/MCP-stdio-1d232e?style=flat-square)](https://modelcontextprotocol.io)
 
-![模块地图界面](docs/assets/screenshot-main.png)
+![模块地图演示](docs/assets/demo.gif)
 
 ## 为什么需要它
 
