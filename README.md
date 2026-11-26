@@ -12,6 +12,7 @@ A local-first project map for AI-assisted programming. Scan a JS/TS codebase int
 [![CI](https://img.shields.io/github/actions/workflow/status/yuehua-meng/module-map/ci.yml?branch=main&style=flat-square&label=ci)](https://github.com/yuehua-meng/module-map/actions)
 [![Node](https://img.shields.io/badge/node-%E2%89%A522-3c873a?style=flat-square)](https://nodejs.org)
 [![MCP](https://img.shields.io/badge/MCP-stdio-1d232e?style=flat-square)](https://modelcontextprotocol.io)
+[![yuehua-meng/module-map MCP server](https://glama.ai/mcp/servers/yuehua-meng/module-map/badges/score.svg)](https://glama.ai/mcp/servers/yuehua-meng/module-map)
 
 ![Module Map demo](docs/assets/demo.gif)
 
